@@ -1,0 +1,22 @@
+.menuBurgerContainer{
+    display: none;
+    flex-direction: column;
+    row-gap: 4px;
+    align-items: end;
+    cursor: pointer;
+    span{
+        display: block;
+        border-radius: 4px;
+        background-color: #fff;
+        height: 3px;
+    }
+    .longLine{
+        width: 30px;
+    }
+    .shortLine{
+        width: 22px;
+    }
+    @media(max-width: 960px){
+        display: flex;
+    }
+}

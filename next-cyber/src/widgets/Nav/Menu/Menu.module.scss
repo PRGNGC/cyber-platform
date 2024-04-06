@@ -1,0 +1,22 @@
+.menuContainer{
+    display: flex;
+    width: 720px;
+    .menuList{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+        column-gap: 10px;
+        .menuItem{
+            list-style: none;
+            font-size: 18px;
+            font-weight: 400;
+            color: #ffffff;
+            @media(max-width: 1020px){
+                font-size: 14px;
+            }
+        }
+    }
+    @media(max-width: 960px){
+        display: none;
+    }
+}

@@ -1,0 +1,21 @@
+.smallMenuContainer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 360px;
+    height: 100%;
+    background-color: #4B4856;
+    padding: 70px 20px 0 60px;
+    .smallMenuNav{
+        margin-top: 50px;
+        .smallMenuList{
+            display: flex;
+            flex-direction: column;
+            row-gap: 50px;
+            .smallMenuItem{
+                list-style: none;
+                font-size: 18px;
+            }
+        }
+    }
+}

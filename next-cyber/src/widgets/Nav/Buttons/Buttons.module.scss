@@ -1,0 +1,23 @@
+.buttonsContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    button{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+    }
+    .enterButton{
+        padding: 20px 35px;
+    }
+    .registrationButton{
+        padding: 20px 35px;
+        background-color: #F04451;
+        border-radius: 15px;
+    }
+    @media(max-width: 640px){
+        display: none;
+    }
+}
